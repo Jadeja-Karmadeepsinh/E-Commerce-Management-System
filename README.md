@@ -1,20 +1,3 @@
-<<<<<<< HEAD
-<h1 align="center">MERN Crash Course 🚀</h1>
-
-![Demo App](/frontend/public/screenshot-for-readme.png)
-
-[Video Tutorial on Youtube](https://youtu.be/Dukz-3mS3Us)
-
-About This Course:
-
--   ⚛️ Tech Stack: React.js, Node.js, Express.js, MongoDB, Chakra UI
--   🔥 Build an API
--   📱 Responsive UI With React.js and ChakraUI
--   🐞 Error Handling
--   🌐 Deployment
--   🚀 And Many More Cool Features
--   ✅ This is a lot of work. Support my work by subscribing to the [Channel](https://www.youtube.com/@asaprogrammer_)
-
 ### Setup .env file
 
 ```shell
@@ -23,18 +6,51 @@ PORT=5000
 ```
 
 ### Run this app locally
+ 
+### Install Backend Dependencies
 
 ```shell
-npm run build
+npm install
 ```
 
-### Start the app
+### Install Frontend Dependencies
 
 ```shell
-npm run start
+cd frontend
+npm install
 ```
 
-### I'll see you in the next one! 🚀
-=======
-# E-Commerce-Management-System
->>>>>>> 458078f53f8fc962a5875e6f363886ef6ad68b41
+### Start Backend Server
+From the root directory:
+
+```shell
+npm start
+```
+
+Starts backend server
+
+Runs on http://localhost:5000
+
+Uses environment variables from .env
+
+### Start Frontend Development Server
+From the frontend directory:
+
+```shell
+npm run dev
+```
+
+Starts frontend in development mode
+
+Hot reload enabled
+
+Usually runs on http://localhost:3000 or http://localhost:5173
+
+
+### Notes
+
+Backend and frontend run separately in development
+
+Always run backend before frontend
+
+Ensure API keys are valid
